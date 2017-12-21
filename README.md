@@ -4,6 +4,7 @@ x = log_a(b) ......(greatly reduced cycles)
 ![alt text](https://addzlabs.files.wordpress.com/2017/12/untitled.png)
 single-pass exponential division drawback:
 eg:  31/2  <-----this is okay since 16 falls near and less than or equal to whole number(n)                                    cycle (2^4) 
+
 EXP DIVI ---> (2,4,8,16,32)---->32-2--->30  } about 5 cycles
 
 NORMAL DIVI ----> (2,4,6,8,10......,30,32)----->32-2---->30 } about  16 cycles!
